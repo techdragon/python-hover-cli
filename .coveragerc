@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/hover_cli
+   */site-packages/hover_cli
+
+[run]
+branch = true
+source =
+    hover_cli
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
